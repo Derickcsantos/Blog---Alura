@@ -1,61 +1,51 @@
-<div align="center">
+# Alura - Imersão back-end
 
-# Blog - Alura
+Este é o repositório do front-end do projeto.
 
-## Sobre o projeto :mag_right:
-Projeto desenvolvido durante a imersão back-end da Alura, com o objetivo de desenvolver um blog de fotos.
+**IMPORTANTE:** É necessário ter o [Node.js](https://nodejs.org/) instalado em seu computador antes de executar os comandos de instalação e execução do projeto. Versão recomendada: v20.x.x.
 
+## PASSO 1: Baixe o código do projeto:
 
-##  Funcionalidades 
- **Adicionar post**: Inclui um arquivo PNG ao blog.
+### Opção 1 - Clonando o repositório para o seu perfil no GitHub
 
-**Visualização dos posts**: Permite que seja possivel visualizar os posts.
+> Para utilizar essa opção é necessário ter o [Git](https://git-scm.com/downloads) instalado e configurado em seu computador. Caso não esteja instalado ou você não tenha certeza, prossiga com a **opção 2** e baixe o .zip do projeto.
 
-**Atualização de post**: Permite que o usuario atualize o post ja criado.
+1. Faça o **fork** do projeto clicando no botão **Fork** na parte superior direita da página;
+2. Faça o **clone** do repositório para seu computador:
+  - Clique no botão **<> Code** e copie o endereço remoto do repositório;
+  - Abra o terminal, navegue até a pasta raiz onde deseja baixar o projeto e execute o comando `git clone <endereço remoto>`;
+  - Você pode acessar a pasta do projeto direto pelo Visual Studio Code, clicando em File > Open Folder e selecionando a pasta do projeto.
 
+### Opção 2 - Baixando um arquivo .zip
 
-
-## Tecnologias Utilizadas :computer:
-
-**Node.js**: Ambiente de execução Javascript do lado do Servidor.
-
-**MongoDB**: Banco de dados não relacional utilizado para guardar as perguntas registradas.
-
-**Express.js**: Framework Node.js utilizado para criar rotas no sistema.
-
-**Multer**: 
-
-**Javascript**: Linguagem de programação principal do projeto, utilizado para trabalhar a interação da pagina e a manipulação da API.
-
-**HTML**: Linguagem de marcação, utilizada para a estruturação do projeto.
-
-**CSS**: Linguagem de estilização, utilizada para trabalhar o Design responsivo e interativo com o usuario.
+1. clique no botão **<> Code** e, em seguida, no botão **Download ZIP**;
+2. uma pasta zipada será baixada para a pasta de downloads determinada pelo seu navegador;
+3. descompacte os arquivos clicando no ícone da pasta zipada e transfira os arquivos para a pasta de projetos de sua preferência.
 
 
-## Como clonar o repositório 📋
+## PASSO 2: Instale o projeto:
 
-Para clonar o repositório, utilize o comando:
+### Opção 1 - Utilizando o terminal do Visual Studio Code
 
-```bash
-git clone https://github.com/Derickcsantos/ListaDePresentes.git
+1. Abra a pasta do projeto no Visual Studio Code clicando em File > Open Folder e selecionando a pasta do projeto;
+2. Clique em Terminal > New Terminal no menu superior do Visual Studio Code. O terminal deve abrir já direcionando para a pasta correta do projeto;
+3. Execute o comando `npm install` e aguarde a finalização.
+
+### Opção 2 - Utilizando outros terminais
+
+1. Abra o terminal de sua preferência e navegue até a pasta do projeto, utilizando os comandos de navegação como `cd <pasta>`;
+2. Com o prompt apontando para a raiz da pasta do projeto, execute o comando `npm install` e aguarde a finalização.
+
+## PASSO 3: Execute o projeto para subir o servidor local:
+
+Acesse o terminal (do Visual Studio Code ou outro), certifique-se que esteja exibindo a pasta correta do projeto e execute o comando `npm run dev`. O terminal deverá retornar:
+
+```
+> dev
+> npx parcel --port 8000 index.html
+
+Server running at http://localhost:8000
+✨ Built in xxxms
 ```
 
-Instalando as dependências
-```bash
-npm Install
-```
-
-Inicializando o servidor
-```bash
-npm run start
-```
-
-## Considerações finais 📝 
-
-🔗 Para conhecer mais do meu trabalho, [clique aqui](https://www.linkedin.com/in/derickcampossantos/)
-
-🌍 Link do projeto: [clique aqui](https://niverrayssa.vercel.app/)
-
-📜 Licença:  **MIT**
-
-
+O projeto estará disponível no endereço http://localhost:8000 e você poderá acessá-lo no navegador de sua preferência.
